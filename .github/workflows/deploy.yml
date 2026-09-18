@@ -29,6 +29,7 @@ jobs:
         env:
           VITE_STAGING_GATE: ${{ vars.VITE_STAGING_GATE }}
           VITE_STAGING_PASSWORD_HASH: ${{ secrets.VITE_STAGING_PASSWORD_HASH }}
+      - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

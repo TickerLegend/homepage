@@ -27,6 +27,12 @@ Set `VITE_STAGING_GATE=true` and `VITE_STAGING_PASSWORD_HASH` (SHA-256 hex of th
 | `npm run lint` | ESLint |
 | `npm run preview` | Preview production build |
 
+## Git remote (TickerLegend SSH)
+
+```bash
+git remote set-url origin git@github.com-tickerlegend:TickerLegend/homepage.git
+```
+
 ## Related repos
 
 | Repo | Role |
